@@ -1,0 +1,26 @@
+body{
+    background-color: #55648978;
+}
+label#name-label,
+label#number-label,
+label#email-label
+{
+    margin-bottom: 6px;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+input {
+    margin-bottom: 6px;
+    height: 30px;
+}
